@@ -20,14 +20,15 @@ This roadmap outlines the development of a task management system with Google Ca
 **Depends on**: Nothing
 **Requirements**: [AUTH-01, AUTH-04]
 **Success Criteria**:
-  1. Supabase project is configured.
+  1. Supabase project is configured with a functional testing suite.
   2. `tasks` table exists with RLS enabled.
-  3. User can sign in using email/password (baseline auth).
-**Plans**: 2 plans
+  3. User can sign in using email/password (baseline auth), verified by behavioral tests.
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project, configure Supabase SSR clients, and define the 'tasks' table schema.
-- [ ] 01-02-PLAN.md — Implement Auth Server Actions, Middleware session management, and Login/Signup UI with shadcn/ui.
+- [ ] 01-01-PLAN.md — Initialize Next.js project and setup Vitest testing framework.
+- [ ] 01-02-PLAN.md — Configure Supabase SSR clients and define the 'tasks' table schema.
+- [ ] 01-03-PLAN.md — Implement Auth Server Actions, Middleware, and Login/Signup UI with behavioral tests.
 
 ### Phase 2: Google OAuth & Token Management
 **Goal**: Allow users to link their Google accounts for calendar access.
@@ -102,7 +103,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 0/3 | Not started | - |
 | 2. Google OAuth | 0/2 | Not started | - |
 | 3. Task Management | 0/2 | Not started | - |
 | 4. Sync | 0/2 | Not started | - |
