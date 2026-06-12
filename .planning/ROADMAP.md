@@ -26,7 +26,7 @@ This roadmap outlines the development of a task management system with Google Ca
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project and setup Vitest testing framework.
+- [x] 01-01-PLAN.md — Initialize Next.js project and setup Vitest testing framework.
 - [ ] 01-02-PLAN.md — Configure Supabase SSR clients and define the 'tasks' table schema.
 - [ ] 01-03-PLAN.md — Implement Auth Server Actions, Middleware, and Login/Signup UI with behavioral tests.
 
@@ -103,7 +103,7 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/3 | Not started | - |
+| 1. Foundation | 1/3 | In progress | - |
 | 2. Google OAuth | 0/2 | Not started | - |
 | 3. Task Management | 0/2 | Not started | - |
 | 4. Sync | 0/2 | Not started | - |
